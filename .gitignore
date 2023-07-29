@@ -1,0 +1,10 @@
+# Ignora la carpeta node_modules
+node_modules
+.idea
+dbBackUP
+
+#Ignora variables de entorno
+.env
+*.xml
+
+.idea/workspace.xml
