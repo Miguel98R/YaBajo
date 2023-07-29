@@ -6,11 +6,8 @@
 
 - **Registro del ciclo menstrual**: Las usuarias pueden registrar el inicio y fin de su periodo menstrual, lo que permite a la aplicación calcular la duración del ciclo y predecir futuros periodos.
 
-- **Notificaciones**: YaBajo proporciona recordatorios y notificaciones útiles para informar a las usuarias sobre próximos periodos y eventos importantes relacionados con su salud.
+- **Predicción del próximo periodo**: YaBajo proporciona una predicción del próximo periodo menstrual, lo que ayuda a las usuarias a estar preparadas y planificar con anticipación.
 
-- **Historial y gráficos**: La aplicación ofrece un historial detallado de los ciclos anteriores y gráficos visuales para visualizar los patrones y cambios a lo largo del tiempo.
-
-- **Información de salud**: YaBajo incluye recursos educativos sobre salud menstrual y proporciona información útil sobre síntomas comunes, recomendaciones y consejos para el bienestar durante el periodo.
 
 ## Instalación
 
@@ -45,7 +42,7 @@ PORT=3000
 npm start
 ```
 
-La aplicación estará disponible en `http://localhost:3000`.
+La aplicación estará disponible en `http://localhost:3003`.
 
 ## Tecnologías utilizadas
 
