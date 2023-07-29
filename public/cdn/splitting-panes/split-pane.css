@@ -1,0 +1,56 @@
+
+.content {
+	padding: 2rem;
+	background-color: transparent;
+	height: 100%;
+	overflow-x: hidden;
+	min-width: 10%;
+}
+
+#panelContainer {
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+	flex: 1;
+	overflow: hidden;
+}
+.panel {
+	position: relative;
+
+}
+.one {
+	position: relative;
+	width: 15%;
+
+}
+.two {
+	position: relative;
+	width: 85%;
+}
+
+.slider {
+	z-index: 10;
+	display: block;
+	position: absolute;
+	width: 5px;
+	background-color: #545454;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	overflow: visible;
+	user-select: none;
+}
+
+.slider::before {
+	content: "";
+	position: absolute;
+
+	top: 50%;
+	height: 1.5rem;
+	width: 7px;
+	background-color: #aeabab;
+	cursor: col-resize;
+}
+
+
+

@@ -1,0 +1,56 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title #{title}
+        include template/styles
+
+    body
+
+        .container-fluid.my-5
+            .row
+                .col-12.col-md-4
+                .col-12.col-md-4
+                    .card.border-0
+                        .card-header.text-center.bg-transparent.border-0
+
+                            div.my-3
+                                img(src="./public/img/imgLeganux/logo.png" style="max-height:100px;").img-fluid
+
+                                span.fw-bolder ¡ Bienvenida de nuevo !
+                            h3 Iniciar sesión
+                        .card-body
+
+                            form#loginForm(role='form' action="api/users/loginPanel" method="POST")
+
+                                label Email
+                                input.form-control(type="email" name="email")#email
+                                label Contraseña
+                                input.form-control(type="password" name="password")#password
+                                br
+
+                                .text-center.py-2
+                                    button#loginBtn(type="subimt" ).btn.btn-block.btn-dark.w-100.my-2 Acceder
+
+
+
+
+                .col-12.col-md-4
+
+
+
+
+
+
+        include template/scripts
+
+        script(src=url_js_files + '/common.js?v=' + Math.random())
+        script.
+            var message_error = '!{message_error}';
+            console.log(message_error);
+        script(src=url_js_files + '/login.js?v=' + Math.random())
+
+
+
+
