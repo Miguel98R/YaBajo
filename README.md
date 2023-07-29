@@ -9,40 +9,6 @@
 - **Predicción del próximo periodo**: YaBajo proporciona una predicción del próximo periodo menstrual, lo que ayuda a las usuarias a estar preparadas y planificar con anticipación.
 
 
-## Instalación
-
-1. Clona este repositorio en tu máquina local.
-
-```
-git clone https://github.com/tu_usuario/YaBajo.git
-```
-
-2. Ve al directorio del proyecto.
-
-```
-cd YaBajo
-```
-
-3. Instala las dependencias necesarias.
-
-```
-npm install
-```
-
-4. Crea un archivo `.env` en la raíz del proyecto y configura las variables de entorno necesarias.
-
-```
-EXPRESS_SESSION_SECRET=tu_secreto_para_la_sesion
-PORT=3000
-```
-
-5. Ejecuta la aplicación.
-
-```
-npm start
-```
-
-La aplicación estará disponible en `http://localhost:3003`.
 
 ## Tecnologías utilizadas
 
@@ -53,9 +19,7 @@ La aplicación estará disponible en `http://localhost:3003`.
 - Pug (motor de plantillas)
 - Otros paquetes y librerías necesarios (ver `package.json`)
 
-## Contribuciones
 
-Las contribuciones son bienvenidas. Si deseas contribuir con mejoras, correcciones de errores o nuevas características, por favor crea un *pull request* explicando los cambios propuestos.
 
 ## Licencia
 
